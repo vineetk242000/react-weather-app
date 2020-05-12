@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 
 function Loader (){
   let timer=undefined;
-  const city="delhi";
   const [ spinner, setSpinner ] = useState(false)
 
   function render(){

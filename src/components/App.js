@@ -49,9 +49,9 @@ function App(props){
     e.preventDefault();
     
     const city=(e.target.elements.city.value);
-    const response1 = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=62b1757f56fc1d19d3105da54df4a488&units=metric`)
+    const response1 = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid={Your API Key}&units=metric`)
     data1 =  await handleResponse(response1);
-    const response2 = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=62b1757f56fc1d19d3105da54df4a488&units=metric`)
+    const response2 = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid={Your API Key}&units=metric`)
     data2 = await handleResponse(response2);
     await refresh();
     
