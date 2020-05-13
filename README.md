@@ -1,7 +1,8 @@
 # React Weather
+React App to get weather from openweathermap api
 
 <p align="center">
-<img src="https://lh3.googleusercontent.com/C9TFXXAda07J4LKWmtCa8up-Nl_WpFTTDQ6EAGuz_QlZCDGpIlSIe0d3hft-gsUbfOpze69Z5p1_nzmXkB5u6bqNmS2z5AGLBM-P1jgvXPteMiz6HHmEh9MW5IAMyPVB5vpmkXhT=w2400" width="50%">
+<img src="https://lh3.googleusercontent.com/gZMXrlJ3NZD4GbaSK7BE-QZhdNm1Yg3EvAplSFOB1NxmaRGdJbzPNdsrRaZPtOcsMxG6wVAG04320sajrOvUCqfvx9GUID3JN3D_H6Ub-ECCD6cndYN64k9yQs0PL1jysXHQVBqevQ=w2400" width="70%">
 </p>
 
 ## Requirements
