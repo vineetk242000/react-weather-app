@@ -79,7 +79,7 @@ function App(props){
       'August',
       'September',
       'October',
-      'Nocvember',
+      'November',
       'December',
     ];
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
