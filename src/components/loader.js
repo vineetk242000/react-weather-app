@@ -7,7 +7,7 @@ function Loader (){
   const [ spinner, setSpinner ] = useState(false)
 
   function render(){
-    return(ReactDOM.render(<App city={city}/>, document.getElementById('root')),
+    return(ReactDOM.render(<App />, document.getElementById('root')),
     setSpinner(true),
      clearTimeout(timer)
     )
